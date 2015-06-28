@@ -1,0 +1,45 @@
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+hr {
+    margin: 0;
+}
+
+.single-block {
+    padding-bottom: 3em;
+}
+
+.single-block h2 {
+    margin-bottom: 2em;
+}
+
+.single-block .col-lg-4 {
+    margin-bottom: 4em;
+}
+
+.getting-started {
+    padding-top: 2em;
+    background-color: #f5f5f5;
+}
+
+.getting-started ul {
+    padding-left: 10em;
+}
+
+.getting-started ul li {
+    margin-bottom: 1em;
+}
+
+.screenshots,
+.contact {
+    padding-top: 2em;
+}
+
+.jumbotron {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background: linear-gradient(45deg,#0084c5 0,#0489c3 36%,#30cabf 66%,#2fbcb2 100%);
+    color: white;
+}
