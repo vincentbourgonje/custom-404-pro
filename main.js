@@ -22,7 +22,7 @@ $(function () {
             $(that).find('i').removeClass('fa-spinner fa-spin').addClass('fa-download');
             $(that).attr('disabled', false);
         }, 2000);
-        location.href = "https://downloads.wordpress.org/plugin/custom-404-pro.1.4.3.zip";
+        location.href = "https://downloads.wordpress.org/plugin/custom-404-pro.1.4.4.zip";
     });
 
 });
