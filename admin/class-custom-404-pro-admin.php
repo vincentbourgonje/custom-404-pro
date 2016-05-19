@@ -131,7 +131,8 @@ class Custom_404_Pro_Admin {
 			'register_meta_box_cb' => array( $this, 'logs_add_custom_fields_metabox' ),
 			'capability_type'      => 'post',
 			'capabilities'         => array( 'create_posts' => false ),
-			'map_meta_cap'         => true
+			'map_meta_cap'         => true,
+			'exclude_from_search'  => true
 		);
 		register_post_type( 'c4p_log', $args );
 	}
